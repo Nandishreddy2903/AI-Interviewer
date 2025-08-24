@@ -43,12 +43,12 @@ You need to set up **backend** and **frontend**.
 
 ---
 
-### 🔧 Backend Setup
+## 🚀 Backend Setup
 
 1. Navigate to server folder:
    ```bash
    cd server
-````
+   ```
 
 2. Install dependencies:
 
@@ -79,17 +79,17 @@ You need to set up **backend** and **frontend**.
 
 ---
 
-### 🎨 Frontend Setup
+## 🎨 Frontend Setup
 
 1. Go to project root directory
 
-2. Serve frontend using `serve`:
+2. Start frontend using :
 
    ```bash
-   npx serve
+   npm run dev
    ```
 
-3. Open the provided URL (usually `http://localhost:3000`) in your browser.
+3. Open the provided URL (usually `http://localhost:5173`) in your browser.
 
 ---
 
@@ -106,6 +106,4 @@ You need to set up **backend** and **frontend**.
 * In-progress interviews auto-save → resume anytime.
 * Works with both voice and text input.
 * Tracks performance history for better preparation.
-
----
 

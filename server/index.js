@@ -12,7 +12,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://aiinterviewer-bay.vercel.app/", 
+      "https://ai-interviewer-wine-iota.vercel.app", 
       "http://localhost:5173" // optional, for local dev
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],

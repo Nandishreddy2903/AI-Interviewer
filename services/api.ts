@@ -1,6 +1,6 @@
 import type { InterviewSession, InProgressInterview, SolvedCodingProblem, CodingChallenge, Language, InterviewDifficulty } from '../types';
 
-const API_URL = 'http://localhost:5000/api'; // The backend server URL.
+const API_URL = const API_URL = `${import.meta.env.VITE_API_URL}/api`; // The backend server URL.
 
 // A helper function to handle API requests and errors.
 async function apiRequest<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
